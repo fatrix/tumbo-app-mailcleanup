@@ -23,7 +23,7 @@ def func(self):
     """
     import imaplib
     M = imaplib.IMAP4_SSL("mx.sahli.net")
-    M.login("philip@sahli.net", "Nieder4wangen$")
+    M.login(self.settings.USERNAME, self.settings.PASSWORD)
     inbox_data = M.select()
     self.info(self.rid, str(inbox_data))
     self.info(self.rid, str(M.list()))
