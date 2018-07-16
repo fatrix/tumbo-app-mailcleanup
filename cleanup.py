@@ -71,6 +71,8 @@ def func(self):
                     'newsletter@listserv.heise.de',
                     'noreply@paperc.com',
                     'noreply@statuspage.io',
+                    'support@btc-echo.de',
+                    'donovan@newsletter.ubs.com',
 "alert@uptimerobot.com",
 "noreply@newrelic.com",
 "community@contact.about.me",
