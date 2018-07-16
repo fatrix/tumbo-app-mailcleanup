@@ -22,7 +22,7 @@ def func(self):
         https://pymotw.com/2/imaplib/
     """
     import imaplib
-    M = imaplib.IMAP4_SSL("mx.sahli.net")
+    M = imaplib.IMAP4_SSL(self.settings.IMAP4_SSL_SERVER)
     M.login(self.settings.USERNAME, self.settings.PASSWORD)
     inbox_data = M.select()
     self.info(self.rid, str(inbox_data))
