@@ -33,6 +33,7 @@ def func(self):
             'news@digitecgalaxus.ch',
             'docker@info.docker.com',
             'hackers@docker.com',
+            'alert@uptimerobot.com',
             'manuel@codeship.com',
             'salford@rkc.edu',
             'messages-noreply@linkedin.com',
