@@ -30,6 +30,7 @@ def func(self):
 
     filters = {
         'FROM': [
+            'support@support.digitalocean.com',
             'news@digitecgalaxus.ch',
             'docker@info.docker.com',
             'hackers@docker.com',
